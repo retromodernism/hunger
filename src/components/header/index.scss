@@ -101,20 +101,7 @@
     }
     .header__content-h1 {
       color: #ffffff;
-      position: relative;
       margin-top: 25px;
-      &::after {
-        content: "";
-        width: 60px;
-        height: 5px;
-        background: #e8c300;
-        border-radius: 50px;
-        position: absolute;
-
-        bottom: -5px;
-        left: 50%;
-        transform: translate(-50%, 0);
-      }
     }
     .header__content-buttons {
       margin-top: 36px;

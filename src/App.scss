@@ -12,6 +12,20 @@ h1 {
   font-family: Banny;
   font-size: 96px;
   text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  &::after {
+    content: "";
+    width: 60px;
+    height: 5px;
+    background: #e8c300;
+    border-radius: 50px;
+    position: absolute;
+
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
 
 h2 {
@@ -19,6 +33,20 @@ h2 {
   font-size: 36px;
   line-height: 48px;
   text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  &::after {
+    content: "";
+    width: 60px;
+    height: 5px;
+    background: #e8c300;
+    border-radius: 50px;
+    position: absolute;
+
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
 
 a {
@@ -30,6 +58,23 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+
+p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+p b {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 button {
