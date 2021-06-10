@@ -4,6 +4,7 @@ import Booking from "./components/booking";
 import Header from "./components/header";
 import Team from "./components/team";
 import Specialties from "./components/specialties";
+import Menu from "./components/menu";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Team />
       <Booking />
       <Specialties />
+      <Menu />
     </div>
   );
 }
