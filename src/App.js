@@ -5,6 +5,7 @@ import Header from "./components/header";
 import Team from "./components/team";
 import Specialties from "./components/specialties";
 import Menu from "./components/menu";
+import PrivateEvents from "./components/privateEvents";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Booking />
       <Specialties />
       <Menu />
+      <PrivateEvents />
     </div>
   );
 }
