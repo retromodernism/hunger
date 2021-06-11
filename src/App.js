@@ -9,6 +9,7 @@ import PrivateEvents from "./components/privateEvents";
 import Gallery from "./components/gallery";
 import Contact from "./components/contact";
 import Map from "./components/map";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         containerElement={<div style={{ height: `475px`, maxWidth: `1920px` }} />}
         mapElement={<div style={{ height: `100%` }} />}
       />
+      <Footer />
     </div>
   );
 }
