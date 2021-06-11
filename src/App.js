@@ -8,6 +8,7 @@ import Menu from "./components/menu";
 import PrivateEvents from "./components/privateEvents";
 import Gallery from "./components/gallery";
 import Contact from "./components/contact";
+import Map from "./components/map";
 
 function App() {
   return (
@@ -21,6 +22,13 @@ function App() {
       <PrivateEvents />
       <Gallery />
       <Contact />
+      <Map
+        isMarkerShown
+        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={<div style={{ height: `100%` }} />}
+        containerElement={<div style={{ height: `475px`, maxWidth: `1920px` }} />}
+        mapElement={<div style={{ height: `100%` }} />}
+      />
     </div>
   );
 }
