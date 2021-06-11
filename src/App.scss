@@ -91,3 +91,35 @@ button {
   align-items: center;
   justify-content: center;
 }
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background: #e5e5e5;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-indent: 20px;
+
+  color: rgba(51, 51, 51, 0.5);
+  &[type="submit"] {
+    background: #e8c300;
+    text-align: center;
+
+    cursor: pointer;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+}

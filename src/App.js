@@ -7,6 +7,7 @@ import Specialties from "./components/specialties";
 import Menu from "./components/menu";
 import PrivateEvents from "./components/privateEvents";
 import Gallery from "./components/gallery";
+import Contact from "./components/contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Menu />
       <PrivateEvents />
       <Gallery />
+      <Contact />
     </div>
   );
 }
