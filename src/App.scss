@@ -92,7 +92,7 @@ button {
   justify-content: center;
 }
 
-input {
+input, textarea {
   padding: 10px;
   border-radius: 5px;
   padding: 10px;
@@ -122,4 +122,9 @@ input {
 
     color: #ffffff;
   }
+}
+
+.FontAwesome5free {
+  font-family: 'Font Awesome 5 Free';
+  color: #E8C300;
 }

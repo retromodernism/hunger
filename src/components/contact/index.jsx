@@ -1,4 +1,5 @@
 import "./index.scss";
+import TextareaAutoSize from "react-textarea-autosize";
 
 const Contact = (props) => {
   return (
@@ -14,30 +15,36 @@ const Contact = (props) => {
         <input
           type="text"
           className="contact__form-input contact__form-input_name"
+          placeholder="Name"
         />
         <input
           type="email"
           className="contact__form-input contact__form-input_email"
+          placeholder="Email"
         />
         <input
           type="phone"
           className="contact__form-input contact__form-input_phone"
+          placeholder="Phone"
         />
-        <textarea
+        <TextareaAutoSize
           name="message"
           className="contact__form-textarea"
-          cols="30"
-          rows="10"
-        ></textarea>
+          placeholder="Message"
+          minRows={5}
+        ></TextareaAutoSize>
         <div className="contact__form-info">
-          <div className="contact__form-info-item contact__form-info-address">
-            5th London Boulevard, U.K.
+          <div className="contact__form-info-item">
+            <span className="FontAwesome5free"></span>&nbsp;&nbsp;&nbsp;&nbsp;5th
+            London Boulevard, U.K.
           </div>
-          <div className="contact__form-info-item contact__form-info-phone">
-            +40 729 131 637/+40 726 458 782
+          <div className="contact__form-info-item">
+            <span className="FontAwesome5free"></span>
+            &nbsp;&nbsp;&nbsp;&nbsp;+40 729 131 637/+40 726 458 782
           </div>
-          <div className="contact__form-info-item contact__form-info-email">
-            office@mindblister.com
+          <div className="contact__form-info-item">
+            <span className="FontAwesome5free"></span>
+            &nbsp;&nbsp;&nbsp;&nbsp;office@mindblister.com
           </div>
         </div>
         <input
