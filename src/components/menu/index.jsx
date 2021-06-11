@@ -36,7 +36,7 @@ const Menu = (props) => {
           maximus, molestie est a, tempor magna.
         </b>
       </p>
-      <Swiper className="menu__swiper" {...swiperParams} effect="fade">
+      <Swiper className="menu__swiper" {...swiperParams}>
         {menuItems.map((category, i) => (
           <SwiperSlide className="menu__swiper-slide" key={i}>
             {category.items.map((item, j) => (
