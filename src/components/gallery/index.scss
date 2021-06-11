@@ -1,0 +1,15 @@
+.gallery {
+  width: 1440px;
+  margin: auto;
+  .gallery__swiper {
+    .gallery__swiper-slide {
+      .gallery__swiper-slide-picture {
+        .gallery__swiper-slide-img {
+          width: 360px;
+          height: 360px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@ import Team from "./components/team";
 import Specialties from "./components/specialties";
 import Menu from "./components/menu";
 import PrivateEvents from "./components/privateEvents";
+import Gallery from "./components/gallery";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Specialties />
       <Menu />
       <PrivateEvents />
+      <Gallery />
     </div>
   );
 }
